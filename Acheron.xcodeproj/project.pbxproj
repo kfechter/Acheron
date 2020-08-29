@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64BC6E8124FA35630042982B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E8024FA35630042982B /* AppDelegate.swift */; };
+		64BC6E8324FA35630042982B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E8224FA35630042982B /* ContentView.swift */; };
+		64BC6E8624FA35630042982B /* Acheron.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E8424FA35630042982B /* Acheron.xcdatamodeld */; };
+		64BC6E8824FA35650042982B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BC6E8724FA35650042982B /* Assets.xcassets */; };
+		64BC6E8B24FA35650042982B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64BC6E8A24FA35650042982B /* Preview Assets.xcassets */; };
+		64BC6E8E24FA35650042982B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BC6E8C24FA35650042982B /* Main.storyboard */; };
+		64BC6E9A24FA35650042982B /* AcheronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E9924FA35650042982B /* AcheronTests.swift */; };
+		64BC6EA524FA35650042982B /* AcheronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6EA424FA35650042982B /* AcheronUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64BC6E9624FA35650042982B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BC6E7524FA35630042982B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BC6E7C24FA35630042982B;
+			remoteInfo = Acheron;
+		};
+		64BC6EA124FA35650042982B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64BC6E7524FA35630042982B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64BC6E7C24FA35630042982B;
+			remoteInfo = Acheron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64BC6E7D24FA35630042982B /* Acheron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acheron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BC6E8024FA35630042982B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64BC6E8224FA35630042982B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64BC6E8524FA35630042982B /* Acheron.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Acheron.xcdatamodel; sourceTree = "<group>"; };
+		64BC6E8724FA35650042982B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64BC6E8A24FA35650042982B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64BC6E8D24FA35650042982B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64BC6E8F24FA35650042982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BC6E9024FA35650042982B /* Acheron.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Acheron.entitlements; sourceTree = "<group>"; };
+		64BC6E9524FA35650042982B /* AcheronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcheronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BC6E9924FA35650042982B /* AcheronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcheronTests.swift; sourceTree = "<group>"; };
+		64BC6E9B24FA35650042982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64BC6EA024FA35650042982B /* AcheronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcheronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64BC6EA424FA35650042982B /* AcheronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcheronUITests.swift; sourceTree = "<group>"; };
+		64BC6EA624FA35650042982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64BC6E7A24FA35630042982B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC6E9224FA35650042982B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC6E9D24FA35650042982B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64BC6E7424FA35630042982B = {
+			isa = PBXGroup;
+			children = (
+				64BC6E7F24FA35630042982B /* Acheron */,
+				64BC6E9824FA35650042982B /* AcheronTests */,
+				64BC6EA324FA35650042982B /* AcheronUITests */,
+				64BC6E7E24FA35630042982B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64BC6E7E24FA35630042982B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64BC6E7D24FA35630042982B /* Acheron.app */,
+				64BC6E9524FA35650042982B /* AcheronTests.xctest */,
+				64BC6EA024FA35650042982B /* AcheronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64BC6E7F24FA35630042982B /* Acheron */ = {
+			isa = PBXGroup;
+			children = (
+				64BC6E8024FA35630042982B /* AppDelegate.swift */,
+				64BC6E8224FA35630042982B /* ContentView.swift */,
+				64BC6E8724FA35650042982B /* Assets.xcassets */,
+				64BC6E8C24FA35650042982B /* Main.storyboard */,
+				64BC6E8F24FA35650042982B /* Info.plist */,
+				64BC6E9024FA35650042982B /* Acheron.entitlements */,
+				64BC6E8424FA35630042982B /* Acheron.xcdatamodeld */,
+				64BC6E8924FA35650042982B /* Preview Content */,
+			);
+			path = Acheron;
+			sourceTree = "<group>";
+		};
+		64BC6E8924FA35650042982B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64BC6E8A24FA35650042982B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64BC6E9824FA35650042982B /* AcheronTests */ = {
+			isa = PBXGroup;
+			children = (
+				64BC6E9924FA35650042982B /* AcheronTests.swift */,
+				64BC6E9B24FA35650042982B /* Info.plist */,
+			);
+			path = AcheronTests;
+			sourceTree = "<group>";
+		};
+		64BC6EA324FA35650042982B /* AcheronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64BC6EA424FA35650042982B /* AcheronUITests.swift */,
+				64BC6EA624FA35650042982B /* Info.plist */,
+			);
+			path = AcheronUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64BC6E7C24FA35630042982B /* Acheron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BC6EA924FA35650042982B /* Build configuration list for PBXNativeTarget "Acheron" */;
+			buildPhases = (
+				64BC6E7924FA35630042982B /* Sources */,
+				64BC6E7A24FA35630042982B /* Frameworks */,
+				64BC6E7B24FA35630042982B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acheron;
+			productName = Acheron;
+			productReference = 64BC6E7D24FA35630042982B /* Acheron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64BC6E9424FA35650042982B /* AcheronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BC6EAC24FA35650042982B /* Build configuration list for PBXNativeTarget "AcheronTests" */;
+			buildPhases = (
+				64BC6E9124FA35650042982B /* Sources */,
+				64BC6E9224FA35650042982B /* Frameworks */,
+				64BC6E9324FA35650042982B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BC6E9724FA35650042982B /* PBXTargetDependency */,
+			);
+			name = AcheronTests;
+			productName = AcheronTests;
+			productReference = 64BC6E9524FA35650042982B /* AcheronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64BC6E9F24FA35650042982B /* AcheronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64BC6EAF24FA35650042982B /* Build configuration list for PBXNativeTarget "AcheronUITests" */;
+			buildPhases = (
+				64BC6E9C24FA35650042982B /* Sources */,
+				64BC6E9D24FA35650042982B /* Frameworks */,
+				64BC6E9E24FA35650042982B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64BC6EA224FA35650042982B /* PBXTargetDependency */,
+			);
+			name = AcheronUITests;
+			productName = AcheronUITests;
+			productReference = 64BC6EA024FA35650042982B /* AcheronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64BC6E7524FA35630042982B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Kenneth Fechter";
+				TargetAttributes = {
+					64BC6E7C24FA35630042982B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					64BC6E9424FA35650042982B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 64BC6E7C24FA35630042982B;
+					};
+					64BC6E9F24FA35650042982B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 64BC6E7C24FA35630042982B;
+					};
+				};
+			};
+			buildConfigurationList = 64BC6E7824FA35630042982B /* Build configuration list for PBXProject "Acheron" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64BC6E7424FA35630042982B;
+			productRefGroup = 64BC6E7E24FA35630042982B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64BC6E7C24FA35630042982B /* Acheron */,
+				64BC6E9424FA35650042982B /* AcheronTests */,
+				64BC6E9F24FA35650042982B /* AcheronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64BC6E7B24FA35630042982B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC6E8E24FA35650042982B /* Main.storyboard in Resources */,
+				64BC6E8B24FA35650042982B /* Preview Assets.xcassets in Resources */,
+				64BC6E8824FA35650042982B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC6E9324FA35650042982B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC6E9E24FA35650042982B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64BC6E7924FA35630042982B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC6E8324FA35630042982B /* ContentView.swift in Sources */,
+				64BC6E8624FA35630042982B /* Acheron.xcdatamodeld in Sources */,
+				64BC6E8124FA35630042982B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC6E9124FA35650042982B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC6E9A24FA35650042982B /* AcheronTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64BC6E9C24FA35650042982B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64BC6EA524FA35650042982B /* AcheronUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64BC6E9724FA35650042982B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BC6E7C24FA35630042982B /* Acheron */;
+			targetProxy = 64BC6E9624FA35650042982B /* PBXContainerItemProxy */;
+		};
+		64BC6EA224FA35650042982B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64BC6E7C24FA35630042982B /* Acheron */;
+			targetProxy = 64BC6EA124FA35650042982B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64BC6E8C24FA35650042982B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64BC6E8D24FA35650042982B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64BC6EA724FA35650042982B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64BC6EA824FA35650042982B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		64BC6EAA24FA35650042982B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Acheron/Acheron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Acheron/Preview Content\"";
+				DEVELOPMENT_TEAM = L42C5GRMWG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Acheron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennethfechter.Acheron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		64BC6EAB24FA35650042982B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Acheron/Acheron.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Acheron/Preview Content\"";
+				DEVELOPMENT_TEAM = L42C5GRMWG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Acheron/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennethfechter.Acheron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		64BC6EAD24FA35650042982B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L42C5GRMWG;
+				INFOPLIST_FILE = AcheronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennethfechter.AcheronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acheron.app/Contents/MacOS/Acheron";
+			};
+			name = Debug;
+		};
+		64BC6EAE24FA35650042982B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L42C5GRMWG;
+				INFOPLIST_FILE = AcheronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennethfechter.AcheronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acheron.app/Contents/MacOS/Acheron";
+			};
+			name = Release;
+		};
+		64BC6EB024FA35650042982B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L42C5GRMWG;
+				INFOPLIST_FILE = AcheronUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennethfechter.AcheronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Acheron;
+			};
+			name = Debug;
+		};
+		64BC6EB124FA35650042982B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = L42C5GRMWG;
+				INFOPLIST_FILE = AcheronUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kennethfechter.AcheronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Acheron;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64BC6E7824FA35630042982B /* Build configuration list for PBXProject "Acheron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC6EA724FA35650042982B /* Debug */,
+				64BC6EA824FA35650042982B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BC6EA924FA35650042982B /* Build configuration list for PBXNativeTarget "Acheron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC6EAA24FA35650042982B /* Debug */,
+				64BC6EAB24FA35650042982B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BC6EAC24FA35650042982B /* Build configuration list for PBXNativeTarget "AcheronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC6EAD24FA35650042982B /* Debug */,
+				64BC6EAE24FA35650042982B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64BC6EAF24FA35650042982B /* Build configuration list for PBXNativeTarget "AcheronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64BC6EB024FA35650042982B /* Debug */,
+				64BC6EB124FA35650042982B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64BC6E8424FA35630042982B /* Acheron.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64BC6E8524FA35630042982B /* Acheron.xcdatamodel */,
+			);
+			currentVersion = 64BC6E8524FA35630042982B /* Acheron.xcdatamodel */;
+			path = Acheron.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64BC6E7524FA35630042982B /* Project object */;
+}
