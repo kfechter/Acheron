@@ -15,6 +15,7 @@
 		64BC6E8E24FA35650042982B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64BC6E8C24FA35650042982B /* Main.storyboard */; };
 		64BC6E9A24FA35650042982B /* AcheronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E9924FA35650042982B /* AcheronTests.swift */; };
 		64BC6EA524FA35650042982B /* AcheronUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6EA424FA35650042982B /* AcheronUITests.swift */; };
+		64EB131324FAA48F00F6DE5A /* DiskPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64EB131224FAA48F00F6DE5A /* DiskPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		64BC6EA024FA35650042982B /* AcheronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcheronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC6EA424FA35650042982B /* AcheronUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcheronUITests.swift; sourceTree = "<group>"; };
 		64BC6EA624FA35650042982B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64EB131224FAA48F00F6DE5A /* DiskPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				64BC6E9024FA35650042982B /* Acheron.entitlements */,
 				64BC6E8424FA35630042982B /* Acheron.xcdatamodeld */,
 				64BC6E8924FA35650042982B /* Preview Content */,
+				64EB131224FAA48F00F6DE5A /* DiskPicker.swift */,
 			);
 			path = Acheron;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64EB131324FAA48F00F6DE5A /* DiskPicker.swift in Sources */,
 				64BC6E8324FA35630042982B /* ContentView.swift in Sources */,
 				64BC6E8624FA35630042982B /* Acheron.xcdatamodeld in Sources */,
 				64BC6E8124FA35630042982B /* AppDelegate.swift in Sources */,
@@ -436,11 +440,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Acheron/Acheron.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Acheron/Preview Content\"";
 				DEVELOPMENT_TEAM = L42C5GRMWG;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Acheron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -459,11 +464,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Acheron/Acheron.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Acheron/Preview Content\"";
 				DEVELOPMENT_TEAM = L42C5GRMWG;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Acheron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
