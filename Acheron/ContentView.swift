@@ -18,7 +18,7 @@ struct ContentView: View {
     @State private var errorMessage = "";
     
     @State private var successState = false;
-    @State private var successMessage = "";
+    @State private var successMessage = "USB Created";
     
     @State private var executionState = (output: [String](), error: [String](), exitCode: Int32());
     
@@ -90,7 +90,27 @@ struct ContentView: View {
                                                            }
                                                            else {
                                     if(self.targetDevice != "") {
-                                        self.executionState = self.runCommand(cmd: "/bin/cp", args: "-R", "\(userPath)/", self.targetDevice)
+                                        self.executionState = self.runCommand(cmd: "/bin/cp", args: "-R", "\(userPath)/", self.targetDevice.replacingOccurrences(of: "file://", with: ""))
+                                        if(self.executionState.exitCode != 0 && self.executionState.error.count > 0) {
+                                            self.errorState = true;
+                                            self.errorMessage = self.executionState.error[0];
+                                        }
+                                        else {
+                                            // cleanup
+                                            self.executionState = self.runCommand(cmd: "/bin/rm", args: "-rf", userPath)
+                                            // unmount volumes
+                                            self.executionState = self.runCommand(cmd: "/usr/sbin/diskutil", args: "unmount", self.targetIsoPath)
+                                            self.executionState = self.runCommand(cmd: "/usr/sbin/diskutil", args: "unmount", self.targetDevice.replacingOccurrences(of: "file://", with: ""))
+                                            if(self.executionState.exitCode != 0 && self.executionState.error.count > 0) {
+                                                self.errorState = true;
+                                                self.errorMessage = self.executionState.error[0];
+                                            }
+                                            else {
+                                                self.errorState = false;
+                                                self.successState = true;
+                                            }
+                                        }
+                                        
                                     }
                                     else {
                                         self.errorState = true
