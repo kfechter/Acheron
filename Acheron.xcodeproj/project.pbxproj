@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6413398E24FC6BC000196532 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413398D24FC6BC000196532 /* ErrorView.swift */; };
+		6413399024FC6D3D00196532 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6413398F24FC6D3D00196532 /* Functions.swift */; };
 		64BC6E8124FA35630042982B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E8024FA35630042982B /* AppDelegate.swift */; };
 		64BC6E8324FA35630042982B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E8224FA35630042982B /* ContentView.swift */; };
 		64BC6E8624FA35630042982B /* Acheron.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64BC6E8424FA35630042982B /* Acheron.xcdatamodeld */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6413398D24FC6BC000196532 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		6413398F24FC6D3D00196532 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		64BC6E7D24FA35630042982B /* Acheron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acheron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64BC6E8024FA35630042982B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64BC6E8224FA35630042982B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				64BC6E8424FA35630042982B /* Acheron.xcdatamodeld */,
 				64BC6E8924FA35650042982B /* Preview Content */,
 				64EB131224FAA48F00F6DE5A /* DiskPicker.swift */,
+				6413398D24FC6BC000196532 /* ErrorView.swift */,
+				6413398F24FC6D3D00196532 /* Functions.swift */,
 			);
 			path = Acheron;
 			sourceTree = "<group>";
@@ -272,10 +278,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6413398E24FC6BC000196532 /* ErrorView.swift in Sources */,
 				64EB131324FAA48F00F6DE5A /* DiskPicker.swift in Sources */,
 				64BC6E8324FA35630042982B /* ContentView.swift in Sources */,
 				64BC6E8624FA35630042982B /* Acheron.xcdatamodeld in Sources */,
 				64BC6E8124FA35630042982B /* AppDelegate.swift in Sources */,
+				6413399024FC6D3D00196532 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
